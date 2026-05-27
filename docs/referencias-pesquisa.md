@@ -189,3 +189,47 @@ O TCLab é o caso de sucesso mais relevante como modelo de publicação para o G
 | Contexto | Majoritariamente EUA/Europa | **Brasil — LaRA/UERJ** |
 | Encoder | Vários modelos | **LPD3806-600BM (600 PPR)** |
 | Custo | $30–350 | **<$20 (componentes)** |
+
+---
+
+## 11. Papers na RBEF (Revista Brasileira de Ensino de Física)
+
+Nenhum paper na RBEF combina motor DC + encoder + PID. A RBEF tem forte tradição com Arduino mas foca em aquisição de dados e sensores.
+
+| # | Título | Autores | Ano | DOI | Descrição |
+|---|--------|---------|-----|-----|-----------|
+| 56 | Determinación del rendimiento de un motor de Stirling usando Arduino | Savall-Alemany et al. | 2020 | https://doi.org/10.1590/1806-9126-RBEF-2020-0279 | Arduino + sensores em motor Stirling. Baixo custo. |
+| 57 | Potência e força eletromotriz em um gerador didático de corrente alternada | Alves et al. | 2022 | https://doi.org/10.1590/1806-9126-RBEF-2021-0379 | Motor com controle de rotação. Medição de EMF. |
+| 58 | Uma aula sobre conversão de energia utilizando bicicleta, motor, alternador e lâmpada | Borges, Dickman, Vertchenko | 2018 | https://doi.org/10.1590/1806-9126-RBEF-2017-0215 | Motor em experimento didático. |
+| 59 | Motor elétrico — SimuFísica® | Souza, Oliveira, Luiz | 2024 | https://doi.org/10.1590/1806-9126-RBEF-2023-0219 | Simulador de motor para ensino. |
+| 60 | Sistema automatizado para medición del coeficiente de fricción estática | González-Laprea, Santiago | 2021 | https://doi.org/10.1590/1806-9126-RBEF-2021-0056 | Arduino + motor + sensores para física. |
+| 61 | A placa Arduino: uma opção de baixo custo para experiências de física | Souza et al. | 2011 | https://doi.org/10.1590/S1806-11172011000100026 | Paper fundacional Arduino na RBEF. |
+| 62 | Física com Arduino para iniciantes | Cavalcante et al. | 2011 | https://doi.org/10.1590/S1806-11172011000400018 | Arduino para automação e aquisição de dados. |
+| 63 | Strain and deformation measurement using Arduino | Silva et al. | 2019 | https://doi.org/10.1590/1806-9126-RBEF-2018-0206 | Condicionamento de sinal com Arduino. |
+| 64 | Kit experimental com Arduino para ensino de Física Moderna | Silveira, Girardi | 2017 | https://doi.org/10.1590/1806-9126-RBEF-2016-0287 | Kit de baixo custo com interface. |
+| 65 | Física experimental com Arduino: ondas em uma corda | Sousa Jr. et al. | 2020 | https://doi.org/10.1590/1806-9126-RBEF-2020-0177 | Otimização de ADC e timing. |
+| 66 | Kit experimental com Arduino para oscilações em tempo real | Matos Pereira, da Silva | 2021 | https://doi.org/10.1590/1806-9126-RBEF-2021-0186 | Visualização em tempo real. |
+| 67 | Práticas experimentais de Física a distância: Millikan com Arduino | Barros, Dias | 2019 | https://doi.org/10.1590/1806-9126-RBEF-2019-0049 | **Controle remoto de experimento via web.** Filosofia similar ao Girino. |
+| 68 | Sismógrafo empregando sensores piezoelétricos em Arduino | Amorim et al. | 2021 | https://doi.org/10.1590/1806-9126-RBEF-2021-0267 | Aquisição de dados com Arduino. |
+
+### Revisões sistemáticas
+
+| # | Título | Autores | Ano | URL |
+|---|--------|---------|-----|-----|
+| 69 | Contribuições do Arduino no Ensino de Física: revisão sistemática | — | ~2018 | https://bia.ifpi.edu.br/jspui/handle/123456789/4839 |
+| 70 | Arduino no Ensino de Física: Revisão Sistemática de Literatura | UFPA | ~2022 | https://www.periodicos.ufpa.br/index.php/revistaamazonia/article/view/12175 |
+
+---
+
+## 12. Veículos Brasileiros Recomendados (Prioridade para Publicação)
+
+| Veículo | Sigla | Tipo | Observações |
+|---|---|---|---|
+| Congresso Brasileiro de Educação em Engenharia | COBENGE | Congresso | 54ª edição em 2026. Principal fórum brasileiro. |
+| Congresso Brasileiro de Automática | CBA | Congresso | Já publicou plataformas didáticas similares. |
+| Revista Brasileira de Ensino de Física | RBEF | Periódico | **Lacuna clara** — nenhum paper sobre motor + encoder + PID. |
+| Revista Brasileira de Educação em Engenharia | RBEE | Periódico | Foco direto em educação em engenharia. |
+| Simpósio Brasileiro de Automação Inteligente | SBAI | Simpósio | Já publicou bancada didática para motor CC (2019). |
+| Ciência e Natura (UFSM) | — | Periódico | Publicou mini bancada motor + encoder (2025). |
+
+Ver estratégia detalhada de publicação em [`analise-comparativa.md`](analise-comparativa.md#6-estratégia-de-publicação-recomendada).

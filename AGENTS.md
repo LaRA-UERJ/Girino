@@ -149,3 +149,35 @@ Girino/
 - O sinal do encoder LPD3806-600BM opera em 5V; o ESP8266 é 3.3V — pode ser necessário Schmitt trigger (CD40106) para condicionamento de sinal
 - OTA requer que o firmware atual + novo caibam na flash simultaneamente
 - A linguagem do projeto é **português** para documentação e exemplos; **inglês** para código
+
+## Contexto de Pesquisa e Publicação
+
+O Girino visa gerar publicação acadêmica. Levantamento bibliográfico completo em `docs/referencias-pesquisa.md` (~70 refs) e análise comparativa em `docs/analise-comparativa.md`.
+
+### Diferencial do Girino (estado da arte)
+
+Plataformas existentes (MotoShield, OpenMCT, TCLab, Reck 2015) usam Arduino UNO/Teensy + MATLAB/Python. **Nenhuma oferece Wi-Fi nativo, interface web embarcada, API REST ou OTA.** O Girino propõe que o aluno interaja via navegador — sem instalar MATLAB, Python ou qualquer software.
+
+### Trabalhos mais próximos
+
+| Trabalho | Ano | Veículo | Diferença-chave |
+|---|---|---|---|
+| Cabral et al. — Mini bancada motor+encoder | 2025 | Ciência e Natura | Mesmo conceito, mas usa MATLAB/Simulink |
+| Alexandre et al. — PID motor CC | 2025 | RET/UEPG | HW quase idêntico, mas sem Wi-Fi/web/OTA |
+| MotoShield (Takács) | 2021 | IEEE EDUCON | Shield Arduino, sem conectividade |
+| OpenMCT (Von Chong) | 2026 | HardwareX | Teensy 4 + GUI Python, sem web |
+| Reck & Sreenivas | 2015/16 | ACC/MDPI | Papers fundacionais, sem Wi-Fi |
+
+### Veículos recomendados para publicação
+
+1. **COBENGE** (Congresso Brasileiro de Educação em Engenharia) — curto prazo
+2. **CBA** (Congresso Brasileiro de Automática) — já publicou trabalhos similares
+3. **RBEF** (Revista Brasileira de Ensino de Física) — lacuna clara, nenhum paper sobre motor+encoder+PID
+4. **RBEE** (Revista Brasileira de Educação em Engenharia) — artigo completo com avaliação pedagógica
+
+### Pendências para o artigo
+
+- Implementar controle PID no firmware
+- Modelagem matemática do sistema motor+encoder
+- Avaliação pedagógica com alunos
+- Comparação experimental: simulação vs hardware real

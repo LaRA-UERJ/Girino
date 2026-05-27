@@ -15,7 +15,8 @@ Documentação técnica da plataforma didática Girino.
 
 | Documento | Descrição |
 |---|---|
-| [Referências de Pesquisa](referencias-pesquisa.md) | Levantamento bibliográfico (~55 referências) para artigo |
+| [Referências de Pesquisa](referencias-pesquisa.md) | Levantamento bibliográfico (~70 referências) para artigo |
+| [Análise Comparativa](analise-comparativa.md) | Review dos trabalhos relacionados, gap analysis e estratégia de publicação |
 
 ## Recursos
 
