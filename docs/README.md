@@ -11,6 +11,12 @@ Documentação técnica da plataforma didática Girino.
 | [Guia do Firmware](firmware-guide.md) | Compilação e gravação |
 | [Atualização OTA](ota-update-guide.md) | Atualizar firmware via Wi-Fi |
 
+## Pesquisa e Publicação
+
+| Documento | Descrição |
+|---|---|
+| [Referências de Pesquisa](referencias-pesquisa.md) | Levantamento bibliográfico (~55 referências) para artigo |
+
 ## Recursos
 
 - `images/` — Diagramas, esquemas de ligação, fotos
